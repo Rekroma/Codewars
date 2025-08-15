@@ -14,5 +14,5 @@ Codewars
    |- Kata
       |- KataID.Extension
 </pre>
-You can use https://www.codewars.com/kata/ + KataID and optional /LANGUAGE to find the right Kata faster. <br>
+You can use https://www.codewars.com/kata/ + KataID, wich you can copy by pressing F2 and CTRL+C on the selected file, and optional /LANGUAGE to find the right Kata faster. <br>
 Happy coding! :)
