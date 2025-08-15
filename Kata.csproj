@@ -20,4 +20,10 @@
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="**\*.sql" />
+    <None Remove="**\*.js" />
+    <None Remove="**\*.py" />
+  </ItemGroup>
+
 </Project>
