@@ -25,5 +25,5 @@
     <None Remove="**\*.js" />
     <None Remove="**\*.py" />
   </ItemGroup>
-
+  
 </Project>
