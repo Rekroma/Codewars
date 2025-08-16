@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace Kyu8.CSVRepresentationOfArray;
+namespace Kyu8.CsvRepresentationOfArray;
 
 public static class Kata
 {
