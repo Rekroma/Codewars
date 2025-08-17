@@ -1,0 +1,1 @@
+namespace Kyu8.FindNumbersWichAreDivisibleByGivenNumber;
