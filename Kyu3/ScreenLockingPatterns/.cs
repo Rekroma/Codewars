@@ -1,4 +1,4 @@
-namespace Kyu3.CountPatternsFrom;
+namespace Kyu3.ScreenLockingPatterns;
 
 public static class Kata
 {
