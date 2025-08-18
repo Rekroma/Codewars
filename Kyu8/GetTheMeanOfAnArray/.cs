@@ -1,5 +1,7 @@
 using System.Linq;
 
+namespace Kyu8.GetTheMeanOfAnArray;
+
 public class Kata
 {
     public static int GetAverage(int[] marks)
