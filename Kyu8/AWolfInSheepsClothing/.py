@@ -1,0 +1,2 @@
+def warn_the_sheep(queue):
+    return "Pls go away and stop eating my sheep" if queue.index('wolf') == len(queue) - 1 else f"Oi! Sheep number {len(queue) - 1 - queue.index('wolf')}! You are about to be eaten by a wolf!"
