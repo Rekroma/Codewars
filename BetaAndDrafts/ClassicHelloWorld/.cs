@@ -1,4 +1,4 @@
-namespace Kyu8.ClassicHelloWorld;
+namespace Betadrafts.ClassicHelloWorld;
 
 public static class Solution
 {
