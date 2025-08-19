@@ -1,6 +1,6 @@
 using System;
 
-namespace Kyu4.NextBiggerNumber;
+namespace Kyu4.NextBiggerNumberWithTheSameDigits;
 
 public class Kata
 {
