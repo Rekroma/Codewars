@@ -1,4 +1,4 @@
-namespace Kyu6.SimpleFunFourSixCipherTwentySix;
+namespace Kyu6.SimpleFunFourSixCipherTwoSix;
 
 using System.Linq;
 
