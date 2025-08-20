@@ -11,8 +11,8 @@ This is the basic project stucture:
 <pre>
 Codewars
 |- Kyu
-   |- Kata
-      |- Language File Extension (numbers have been converted to text and special characters are ignored)
+   |- Kata (numbers have been converted to text and special characters are ignored)
+      |- Language File Extension 
 </pre>
 
 Remember that copy-pasting solutions is considered unhonorable on Codewars and also blocks personal progress. <br>
