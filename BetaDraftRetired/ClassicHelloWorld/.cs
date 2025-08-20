@@ -1,4 +1,4 @@
-namespace Betadrafts.ClassicHelloWorld;
+namespace BetaDraftRetired.ClassicHelloWorld;
 
 public static class Solution
 {

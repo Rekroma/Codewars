@@ -1,6 +1,7 @@
 using System.Linq;
 
-namespace BetaDraftsRetired;
+namespace BetaDraftsRetired.JavaScriptArrayFilter;
+
 public class Kata
 {
     public static int[] GetEvenNumbers(int[] numbers)

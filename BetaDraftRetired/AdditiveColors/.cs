@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace Betadrafts.AdditiveColors;
+namespace BetaDraftRetired.AdditiveColors;
 
 public class AddColors
 {

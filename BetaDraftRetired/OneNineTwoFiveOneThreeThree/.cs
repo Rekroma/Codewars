@@ -1,6 +1,6 @@
 using System;
 
-namespace Betadrafts.OneNineTwoFiveOneThreeThree;
+namespace BetaDraftRetired.OneNineTwoFiveOneThreeThree;
 
 public class SillyMath
 {
