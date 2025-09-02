@@ -15,5 +15,17 @@ Codewars
       |- Language File Extension 
 </pre>
 
+Progress
+
+||C#|Python|SQL|Javascript|
+|Kyu1||||
+|Kyu1||||
+|Kyu1||||
+|Kyu1||||
+|Kyu1||||
+|Kyu1||||
+|Kyu1||||
+|Kyu1||||
+
 Remember that copy-pasting solutions is considered unhonorable on Codewars and also blocks personal progress. <br>
 Happy coding! :)
