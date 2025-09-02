@@ -27,3 +27,24 @@ public static class BackronymTests
         Assert.That(Kata.MakeBackronym("codewars"), Is.EqualTo("confident oscillating disturbing eager weird awesome rant stylish"));
     }
 }
+
+
+
+public static partial class Kata
+{
+    public static readonly Dictionary<char, string> dict = new()
+    {
+        { 'I', "ingestable" },
+        { 'N', "newtonian" },
+        { 'T', "turn" },
+        { 'E', "eager" },
+        { 'R', "rant" },
+        { 'S', "stylish" },
+        { 'G', "gregarious" },
+        { 'C', "confident" },
+        { 'O', "oscillating" },
+        { 'D', "disturbing" },
+        { 'W', "weird" },
+        { 'A', "awesome" }
+    };
+}

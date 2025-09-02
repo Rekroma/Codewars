@@ -4,7 +4,7 @@ namespace Kyu8.DidSheSayHallo;
 
 public class Kata
 {
-    public static bool Validate_hello(string greetings)
+    public static bool ValidateHello(string greetings)
     {
         return Regex.IsMatch(greetings.ToLower(), "(hello|ciao|salut|hallo|hola|ahoj|czesc)");
     }
@@ -29,3 +29,4 @@ public class Test
         Assert.That(Kata.ValidateHello("meh"), Is.False);
     }
 }
+

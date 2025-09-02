@@ -20,3 +20,10 @@ public class Test
         Assert.That(Kata.ArrowFunc(new int[] { 84, 101, 115, 116 }), Is.EqualTo("Test"));
     }
 }
+
+
+
+public static class Tools
+{
+    public static string FromCharCode(int code) => ((char)code).ToString();
+}

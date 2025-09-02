@@ -32,3 +32,20 @@ public class Fixed_Tests
         Assert.That(cat is Animal, "The Cat class should inherit from Animal");
     }
 }
+
+
+
+public class Animal
+{
+    public string Name { get; }
+
+    public Animal(string name)
+    {
+        Name = name;
+    }
+
+    public virtual string Speak()
+    {
+        return $"{Name} makes a noise.";
+    }
+}

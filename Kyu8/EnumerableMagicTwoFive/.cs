@@ -6,7 +6,7 @@ public static class Kata
 {
     public static int[] Take(int[] arr, int n)
     {
-        return new int[] { 0 };
+        return arr.Take(n).ToArray();
     }
 }
 

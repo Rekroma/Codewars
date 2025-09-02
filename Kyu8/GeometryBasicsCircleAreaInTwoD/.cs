@@ -25,3 +25,28 @@ public class SolutionTest
         Assert.That(Kata.CircleArea(new Circle(new Point(-15, 5), 12.5)), Is.EqualTo(490.873852).Within(epsilon));
     }
 }
+
+
+public class Point
+{
+    public double X { get; }
+    public double Y { get; }
+
+    public Point(double x, double y)
+    {
+        X = x;
+        Y = y;
+    }
+}
+
+public class Circle
+{
+    public Point Center { get; }
+    public double Radius { get; }
+
+    public Circle(Point center, double radius)
+    {
+        Center = center;
+        Radius = radius;
+    }
+}

@@ -29,3 +29,17 @@ public class SolutionTest
         Assert.That(actual, Is.EqualTo(expected).Within(1e-6), string.Format("Incorrect answer for:\n  a=Point({0}, {1})\n  b=Point({2}, {3})\n", a.X, a.Y, b.X, b.Y));
     }
 }
+
+
+
+public class Point
+{
+    public double X { get; }
+    public double Y { get; }
+
+    public Point(double x, double y)
+    {
+        X = x;
+        Y = y;
+    }
+}

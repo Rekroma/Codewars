@@ -5,9 +5,9 @@ namespace Kyu8.IsThereAVowelInThere;
 
 public class Kata
 {
-    public static object[] IsVow(object[] a)
+    public static object[] IsVow(int[] a)
     {
-        return a.Select(x => "aeiou".Contains(Convert.ToChar(x)) ? Convert.ToChar(x).ToString() : x).ToArray();
+        return a.Select(x => "aeiou".Contains(Convert.ToChar(x)) ? (object)Convert.ToChar(x).ToString() : (object)x).ToArray();
     }
 }
 

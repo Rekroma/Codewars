@@ -1,7 +1,7 @@
 using System;
 using StriveObjects;
 
-namespace Kyu8.JobMatchingOne;
+namespace Kyu8.JobMatchingOne { }
 
 public class Strive
 {
@@ -30,5 +30,30 @@ public class ExampleTests
     public void ShouldNotMatch()
     {
         Assert.That(Strive.Match(candidate, job2), Is.False);
+    }
+}
+
+
+
+namespace StriveObjects
+{
+    public class Candidate
+    {
+        public double? MinSalary { get; }
+
+        public Candidate(double? MinSalary = null)
+        {
+            this.MinSalary = MinSalary;
+        }
+    }
+
+    public class Job
+    {
+        public double? MaxSalary { get; }
+
+        public Job(double? MaxSalary = null)
+        {
+            this.MaxSalary = MaxSalary;
+        }
     }
 }

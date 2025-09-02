@@ -99,3 +99,29 @@ public class DogTest
         Assert.That(doug.GreetMaster(), Is.EqualTo("Hello Eliza"));
     }
 }
+
+
+
+public class Animal
+{
+    public string Name { get; }
+    public int Age { get; }
+    public int Legs { get; }
+    public string Species { get; }
+    public string Status { get; }
+
+    public Animal(string name, int age, int legs, string species, string status)
+    {
+        Name = name;
+        Age = age;
+        Legs = legs;
+        Species = species;
+        Status = status;
+    }
+
+    public virtual string Introduce()
+    {
+        return $"Hello, my name is {Name} and I am {Age} years old.";
+    }
+}
+

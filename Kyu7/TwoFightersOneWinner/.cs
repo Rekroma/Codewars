@@ -31,3 +31,19 @@ public class SolutionTest
         Assert.That(Kata.declareWinner(new Fighter("Jerry", 30, 3), new Fighter("Harald", 20, 5), "Harald"), Is.EqualTo("Harald"));
     }
 }
+
+
+
+public class Fighter
+{
+    public string Name { get; }
+    public int Health { get; set; }
+    public int DamagePerAttack { get; }
+
+    public Fighter(string name, int health, int damagePerAttack)
+    {
+        Name = name;
+        Health = health;
+        DamagePerAttack = damagePerAttack;
+    }
+}

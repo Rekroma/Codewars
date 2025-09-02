@@ -6,7 +6,7 @@ public static class Kata
 {
     public static string ExpandedForm(long num)
     {
-        throw new NotImplementedException();
+        return string.Join(" + ", num.ToString().Reverse().Select((x, i) => (x - '0') * (long)Math.Pow(10, i)).Where(x => x > 0).Reverse());
     }
 }
 

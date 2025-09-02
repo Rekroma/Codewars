@@ -30,3 +30,27 @@ public class Test
         }
     }
 }
+
+
+
+public static partial class Kata
+{
+    public static readonly Dictionary<string, string> FirstName = new()
+        {
+            { "A", "Alpha" },
+            { "B", "Beta" },
+            { "D", "Data" },
+            { "F", "Function" },
+            { "H", "Half-life" },
+            { "M", "Malware" }
+        };
+
+    public static readonly Dictionary<string, string> Surname = new()
+        {
+            { "K", "Killer" },
+            { "M", "Mike" },
+            { "P", "Payload" },
+            { "T", "T-Rex" },
+            { "W", "Worm" }
+        };
+}

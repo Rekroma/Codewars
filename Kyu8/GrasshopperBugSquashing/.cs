@@ -73,3 +73,16 @@ public class KataTests
         Assert.That(Kata.Log[5], Is.EqualTo("PrintStatus"));
     }
 }
+
+
+public static partial class Kata
+{
+    public static System.Collections.Generic.List<string> Log { get; } = new();
+
+    public static void RollDice() => Log.Add("RollDice");
+    public static void Move() => Log.Add("Move");
+    public static void Combat() => Log.Add("Combat");
+    public static void GetCoins() => Log.Add("GetCoins");
+    public static void BuyHealth() => Log.Add("BuyHealth");
+    public static void PrintStatus() => Log.Add("PrintStatus");
+}
