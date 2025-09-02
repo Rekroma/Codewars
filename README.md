@@ -1,15 +1,6 @@
 # Hey Code Warriors!
 these are some of my Codewars Kata Solutions. 
 
-### Basic project stucture:
-
-<pre>
-Codewars
-|- Kyu
-   |- Kata (numbers have been converted to text and special characters are ignored)
-      |- Language File Extension 
-</pre>
-
 ### Languages and Progress:
 |Lang/ <br> Kyu|C#|Python|SQL|Javascript|Progress|
 |:---:|---:|---:|---:|---:|:---:|
@@ -21,7 +12,18 @@ Codewars
 |6|74 /707|1 /2.002|0 /130|0 /2.212| 1,48%|
 |7|171 /834|12 /1.787|1 /121|1 /2.008| 3,89% |
 |8|281  /281|24 /338|15 /52|6 /381| 30,99% |
-<br>
+
+### Basic project stucture:
+<pre>
+Codewars
+|- Kyu
+   |- Kata
+      |- Language File Extension 
+</pre>
+Notes:
+- numbers in kata names have been converted.
+- namespaces have been adjusted for project compatibility
+- helper classes might have been added
 
 Remember that copy-pasting solutions is considered unhonorable on Codewars and also blocks personal progress. <br>
 Happy coding! :)
